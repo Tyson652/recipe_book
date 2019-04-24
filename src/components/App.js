@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Landing from '../recipe_book/Landing';
 import RecipeList from '../recipe_book/RecipeList';
+import "../sass/main.scss";
 
 const App = () => {
   return (
