@@ -50,3 +50,25 @@
     animation-fill-mode: backwards;
   }
 }
+
+.btn-text {
+  font-size: $default-font-size;
+  text-decoration: none;
+  color: $color-primary-medium;
+  border-bottom: 1px solid $color-primary-medium;
+  padding: 3px;
+  display: inline-block;
+  transition: all .2s;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-primary-medium;
+    transform: translateY(-2px);
+    box-shadow: 0rem 1rem 2rem rgba($color-black, .15);
+  }
+
+  &:active {
+    box-shadow: 0rem .5rem 1rem rgba($color-black, .15);
+    transform: translateY(0);
+  }
+}

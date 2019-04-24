@@ -27,8 +27,10 @@ const Landing = () => {
               <h3 className="heading-tertiary u-margin-bottom-small">An awsome way to store my favourite recipies</h3>
               <p className="p paragraph">Lorem ipsum dolor sit amet, expedita rerum, est nostrum assumenda ipsam veritatis facilis atque voluptate consequuntur nam perferendis quidem. Necessitatibus distinctio doloremque, aliquam similique reiciendis pariatur</p>
 
-              <h3 className="heading-tertiary u-margin-bottom-small">It tells me everything i need to know to make beautiful dishes</h3>
+              <h3 className="heading-tertiary u-margin-bottom-small">Everything i need to know to make beautiful dishes</h3>
               <p className="p paragraph">Lorem ipsum dolor sit drfisic facilis atque voluptate consequuntur nam perferendis quidem. Necessitatibus distinctio doloremque, aliquam similique reiciendis pariatur</p>
+
+              <Link className="btn-text">Learn more &rarr;</Link>
             </div>
 
             <div className="col-1-of-2">
