@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FoodImage1 from '../../sass/img/food1.jpg';
+import FoodImage2 from '../../sass/img/food2.jpg';
+import FoodImage3 from '../../sass/img/food3.jpg';
 
 const Landing = () => {
   return (
@@ -10,7 +13,7 @@ const Landing = () => {
             <span className="heading-primary--main">Recipies</span>
             <span className="heading-primary--sub">Your new recipie book</span>
           </h1>
-          <Link to="/list" className="u-center-text">
+          <Link to="/new" className="u-center-text">
             <button className="button button--white button--animated">Create your recipie book</button>
           </Link>
         </div>
@@ -34,7 +37,11 @@ const Landing = () => {
             </div>
 
             <div className="col-1-of-2">
-            Col 1 of 2
+              <div className="composition">
+                <img src={FoodImage1} alt="Photo 1" className="composition__photo composition__photo--p1" />
+                <img src={FoodImage2} alt="Photo 2" className="composition__photo composition__photo--p2" />
+                <img src={FoodImage3} alt="Photo 3" className="composition__photo composition__photo--p3" />
+              </div>
             </div>
           </div>
         </section>
