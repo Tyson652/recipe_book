@@ -8,13 +8,13 @@ import "../sass/main.scss";
 const App = () => {
   return (
     <BrowserRouter>
-      <Switch>
-        <div>
+       <div>
+        <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/list" exact component={RecipeList} />
           <Route path="/new" exact component={CreateRecipe} />
-        </div>
-      </Switch>
+        </Switch>
+      </div>
     </BrowserRouter>
   );
 }

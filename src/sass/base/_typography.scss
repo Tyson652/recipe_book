@@ -4,31 +4,31 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 1.5rem;
+  padding: 1.1rem;
 }
 
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 
     &--main {
       display: block;
-      font-size: 6rem;
+      font-size: 4rem;
       font-weight: 400;
-      letter-spacing: 3.5rem;
+      letter-spacing: 2rem;
 
       animation: moveInLeft 1s ease-out;
     }
 
     &--sub {
       display: block;
-      font-size: 2rem;
+      font-size: 1.3rem;
       font-weight: 700;
-      letter-spacing: 1.27rem;
+      letter-spacing: .76rem;
       position: absolute;
-      padding-top: 3.3rem;
+      padding-top: 1.7rem;
 
       animation: moveInRight 1s ease-out;
     }
@@ -63,4 +63,14 @@ body {
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+}
+
+.white-title {
+  color: $color-white;
+  border-bottom: 1px solid $color-white;
+  padding-bottom: 1px;
+  font-weight: 700;
+  text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  margin-bottom: 2rem;
+  display: inline-block;
 }
