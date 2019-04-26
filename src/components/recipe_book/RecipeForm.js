@@ -16,7 +16,7 @@ class RecipeForm extends React.Component {
     const className = `field ${meta.error && meta.touched ? 'error' : ''}`
     return (
       <div className={className}>
-        <label>{label}</label>
+        <label id="form-label">{label}</label>
         <input {...input} />
         {this.renderError(meta)}
       </div>
@@ -34,7 +34,7 @@ class RecipeForm extends React.Component {
           <Field name="title" component={this.renderInput} type="text" label="Enter title" />
           <Field name="ingredients" component={this.renderInput} type="text" label="Enter ingredients" />
           <Field name="calories" component={this.renderInput} type="text" label="Enter calories" />
-          <button className="ui button primary">Submit</button>
+          <button id="semantic-button" className="ui button primary">Submit</button>
         </form>
       </div>
     );

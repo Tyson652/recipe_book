@@ -6,7 +6,7 @@ import FoodImage3 from '../../sass/img/food3.jpg';
 
 const Landing = () => {
   return (
-    <body>
+    <div className="outer-border">
       <header className="header">
         <div className="header--text-box">
           <h1 className="heading-primary">
@@ -25,7 +25,7 @@ const Landing = () => {
             <h2 className="heading-secondary">Quickly look up amazing recipies in an instant</h2>
           </div>
 
-          <div class="row">
+          <div className="row">
             <div className="col-1-of-2">
               <h3 className="heading-tertiary u-margin-bottom-small">An awsome way to store my favourite recipies</h3>
               <p className="p paragraph">Lorem ipsum dolor sit amet, expedita rerum, est nostrum assumenda ipsam veritatis facilis atque voluptate consequuntur nam perferendis quidem. Necessitatibus distinctio doloremque, aliquam similique reiciendis pariatur</p>
@@ -33,14 +33,14 @@ const Landing = () => {
               <h3 className="heading-tertiary u-margin-bottom-small">Everything i need to know to make beautiful dishes</h3>
               <p className="p paragraph">Lorem ipsum dolor sit drfisic facilis atque voluptate consequuntur nam perferendis quidem. Necessitatibus distinctio doloremque, aliquam similique reiciendis pariatur</p>
 
-              <Link className="btn-text">Learn more &rarr;</Link>
+              <Link to="#" className="btn-text">Learn more &rarr;</Link>
             </div>
 
             <div className="col-1-of-2">
               <div className="composition">
-                <img src={FoodImage1} alt="Photo 1" className="composition__photo composition__photo--p1" />
-                <img src={FoodImage2} alt="Photo 2" className="composition__photo composition__photo--p2" />
-                <img src={FoodImage3} alt="Photo 3" className="composition__photo composition__photo--p3" />
+                <img src={FoodImage1} alt="Food 1" className="composition__photo composition__photo--p1" />
+                <img src={FoodImage2} alt="Food 2" className="composition__photo composition__photo--p2" />
+                <img src={FoodImage3} alt="Food 3" className="composition__photo composition__photo--p3" />
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Landing = () => {
             </div>
         </div>
       </section> */}
-    </body>
+    </div>
   );
 }
 

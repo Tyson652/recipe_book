@@ -11,10 +11,12 @@ class CreateRecipe extends React.Component {
   render() {
     console.log(this.props);
     return (
-      <div className="create-recipe">
-        <div className="create-recipe__inner">
-          <h2 class="white-title">Add a new recipe</h2>
-          <RecipeForm onSubmit={this.onSubmit}/>
+      <div className="outer-border">
+        <div className="create-recipe">
+          <div className="create-recipe__inner">
+            <h2 className="white-title">Add a new recipe</h2>
+            <RecipeForm onSubmit={this.onSubmit}/>
+          </div>
         </div>
       </div>
     );
