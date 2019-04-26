@@ -11,11 +11,21 @@
 
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
-  &--text-box {
+  &__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-47.5%, -50%);
     // text-align: center;
+  }
+
+  &__logo {
+    height: 2.5rem;
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
   }
 }

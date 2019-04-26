@@ -3,12 +3,18 @@ import { Link } from 'react-router-dom';
 import FoodImage1 from '../../sass/img/food1.jpg';
 import FoodImage2 from '../../sass/img/food2.jpg';
 import FoodImage3 from '../../sass/img/food3.jpg';
+import LogoImage from '../../sass/img/logo-white.png';
 
 const Landing = () => {
   return (
     <div className="outer-border">
       <header className="header">
-        <div className="header--text-box">
+        <div className="header__logo-box">
+          <Link to='/list'>
+            <img src={LogoImage} alt="logo" className="header__logo" />
+          </Link>
+        </div>
+        <div className="header__text-box">
           <h1 className="heading-primary">
             <span className="heading-primary--main">Recipies</span>
             <span className="heading-primary--sub">Your new recipie book</span>
