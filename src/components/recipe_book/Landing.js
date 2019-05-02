@@ -51,6 +51,151 @@ const Landing = () => {
             </div>
           </div>
         </section>
+    
+        <section className="section-features">
+          <div class="row">
+            <div class="col-1-of-4">
+                <div className="feature-box">
+                  <i className="feature-box__icon icon-basic-world"></i>
+                  <h3 className="heading-tertiary u-margin-bottom-small">Culture food</h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, expedita rerum, est nostrum assumenda ipsam veritatis facilis atque voluptate consequuntur
+                  </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+            <div className="feature-box">
+                  <i className="feature-box__icon icon-basic-compass"></i>
+                  <h3 className="heading-tertiary u-margin-bottom-small">Find new recipes</h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, expedita rerum, est nostrum assumenda ipsam veritatis facilis atque voluptate consequuntur
+                  </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+            <div className="feature-box">
+                  <i className="feature-box__icon icon-basic-map"></i>
+                  <h3 className="heading-tertiary u-margin-bottom-small">Track your calories</h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, expedita rerum, est nostrum assumenda ipsam veritatis facilis atque voluptate consequuntur
+                  </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+            <div className="feature-box">
+                  <i className="feature-box__icon icon-basic-heart"></i>
+                  <h3 className="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, expedita rerum, est nostrum assumenda ipsam veritatis facilis atque voluptate consequuntur
+                  </p>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-tours">
+          <div className="u-center-text u-margin-top-medium u-margin-bottom-big">
+            <h2 className="heading-secondary">Choose your version</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-3">
+              <div className="card">
+                <div className="card__side card__side--front">
+                  <div className="card__picture card__picture--1">
+                    &nbsp;
+                  </div>
+                  <h4 className="card__heading">
+                    <span className="card__heading-span card__heading-span--1">Basic Version</span>
+                  </h4>
+                  <div className="card__details">
+                    <ul>
+                      <li>Save your recipes</li>
+                      <li>Track calories</li>
+                      <li>Search recipes</li>
+                      <li>Save favourites</li>
+                      <li>Quick Login</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card__side card__side--back card__side--back-1">
+                  <div className="card__cta">
+                    <div className="card__price-box">
+                      <p className="card__price-only">Only</p>
+                      <p className="card__price-value">$297</p>
+                    </div>
+                    <button id="card__button" className="button button--white">Book now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div className="card">
+                <div className="card__side card__side--front">
+                  <div className="card__picture card__picture--2">
+                    &nbsp;
+                  </div>
+                  <h4 className="card__heading">
+                    <span className="card__heading-span card__heading-span--2">Mid <br/> Version</span>
+                  </h4>
+                  <div className="card__details">
+                    <ul>
+                      <li>Save your recipes</li>
+                      <li>Track calories</li>
+                      <li>Search recipes</li>
+                      <li>Save favourites</li>
+                      <li>Quick Login</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card__side card__side--back card__side--back-2">
+                  <div className="card__cta">
+                    <div className="card__price-box">
+                      <p className="card__price-only">Only</p>
+                      <p className="card__price-value">$397</p>
+                    </div>
+                    <button id="card__button" className="button button--white">Book now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div className="card">
+                <div className="card__side card__side--front">
+                  <div className="card__picture card__picture--3">
+                    &nbsp;
+                  </div>
+                  <h4 className="card__heading">
+                    <span className="card__heading-span card__heading-span--3">Pro <br/> Version</span>
+                  </h4>
+                  <div className="card__details">
+                    <ul>
+                      <li>Save your recipes</li>
+                      <li>Track calories</li>
+                      <li>Search recipes</li>
+                      <li>Save favourites</li>
+                      <li>Quick Login</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card__side card__side--back card__side--back-3">
+                  <div className="card__cta">
+                    <div className="card__price-box">
+                      <p className="card__price-only">Only</p>
+                      <p className="card__price-value">$497</p>
+                    </div>
+                    <button id="card__button" className="button button--white">Book now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="u-center-text">
+            <div id="card__button-2" className="button button--blue u-margin-top-small">Discover all versions</div>
+          </div>
+        </section>
       </main>
 
       {/* <section className="grid-test">

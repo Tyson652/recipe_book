@@ -3,3 +3,26 @@
   padding: 13rem 0;
   margin-top: -20vh;
 }
+
+.section-features {
+  margin-top: -5rem;
+  padding: 11rem 0;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba($color-primary-light, .8), 
+    rgba($color-primary-medium, .8)), 
+    url(../sass/img/food1.jpg);
+  background-size: cover;
+
+  transform: skewY(-7deg);
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding: 15rem 0 9rem 0;
+  margin-top: -12rem;
+}
