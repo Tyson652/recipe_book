@@ -34,7 +34,7 @@ class RecipeForm extends React.Component {
           <Field name="title" component={this.renderInput} type="text" label="Enter title" />
           <Field name="ingredients" component={this.renderInput} type="text" label="Enter ingredients" />
           <Field name="calories" component={this.renderInput} type="text" label="Enter calories" />
-          <button id="semantic-button" className="ui button primary">Submit</button>
+          <button id="semantic-button" className="ui button primary semantic-button--1">Submit</button>
         </form>
       </div>
     );

@@ -3,15 +3,4 @@
   font-size: $default-font-size;
 }
 
-#semantic-button {
-  position: absolute;
-  right: 1.5rem;
-  color: $color-primary-medium;
-  background-color: $color-white;
-  box-shadow: 0 .2rem .7rem rgba($color-black, .15);
-  font-size: $default-font-size;
 
-  &:hover {
-    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
-  }
-}

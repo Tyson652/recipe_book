@@ -53,8 +53,8 @@ const Landing = () => {
         </section>
     
         <section className="section-features">
-          <div class="row">
-            <div class="col-1-of-4">
+          <div className="row">
+            <div className="col-1-of-4">
                 <div className="feature-box">
                   <i className="feature-box__icon icon-basic-world"></i>
                   <h3 className="heading-tertiary u-margin-bottom-small">Culture food</h3>
@@ -63,7 +63,7 @@ const Landing = () => {
                   </p>
                 </div>
             </div>
-            <div class="col-1-of-4">
+            <div className="col-1-of-4">
             <div className="feature-box">
                   <i className="feature-box__icon icon-basic-compass"></i>
                   <h3 className="heading-tertiary u-margin-bottom-small">Find new recipes</h3>
@@ -72,7 +72,7 @@ const Landing = () => {
                   </p>
                 </div>
             </div>
-            <div class="col-1-of-4">
+            <div className="col-1-of-4">
             <div className="feature-box">
                   <i className="feature-box__icon icon-basic-map"></i>
                   <h3 className="heading-tertiary u-margin-bottom-small">Track your calories</h3>
@@ -81,7 +81,7 @@ const Landing = () => {
                   </p>
                 </div>
             </div>
-            <div class="col-1-of-4">
+            <div className="col-1-of-4">
             <div className="feature-box">
                   <i className="feature-box__icon icon-basic-heart"></i>
                   <h3 className="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
@@ -98,8 +98,8 @@ const Landing = () => {
             <h2 className="heading-secondary">Choose your version</h2>
           </div>
 
-          <div class="row">
-            <div class="col-1-of-3">
+          <div className="row">
+            <div className="col-1-of-3">
               <div className="card">
                 <div className="card__side card__side--front">
                   <div className="card__picture card__picture--1">
@@ -130,7 +130,7 @@ const Landing = () => {
               </div>
             </div>
 
-            <div class="col-1-of-3">
+            <div className="col-1-of-3">
               <div className="card">
                 <div className="card__side card__side--front">
                   <div className="card__picture card__picture--2">
@@ -161,7 +161,7 @@ const Landing = () => {
               </div>
             </div>
 
-            <div class="col-1-of-3">
+            <div className="col-1-of-3">
               <div className="card">
                 <div className="card__side card__side--front">
                   <div className="card__picture card__picture--3">

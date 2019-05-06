@@ -1,0 +1,8 @@
+.recipe-list-item {
+  border-bottom: 1px solid $color-primary-dark;
+  padding-bottom: .15rem;
+
+  &:first-child {
+    border-top: 1px solid $color-primary-dark;
+  }
+}
